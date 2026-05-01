@@ -14,7 +14,6 @@
     <value>Выполненные сотрудником работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="c83eb361-0e6c-40ba-a2ed-c6abb53f355b">
@@ -27,6 +26,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>10</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

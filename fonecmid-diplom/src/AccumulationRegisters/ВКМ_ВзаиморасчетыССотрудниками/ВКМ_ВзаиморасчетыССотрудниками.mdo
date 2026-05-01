@@ -14,6 +14,7 @@
     <value>Взаиморасчеты с сотрудниками</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="8630d666-5f87-4c8a-abec-12014bf4cc58">
@@ -73,6 +74,40 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="d8786fbe-1ad6-4c7a-890a-a56efe9ed7bf">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="93f2a76e-5c3d-4145-be69-7bce34dd9a66">
+    <name>ПремияПроцентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия процентом</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="0aacdd37-aa22-42c1-98e8-a2e9c7f8cd63">
     <name>Сотрудник</name>
     <synonym>
@@ -87,4 +122,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <forms uuid="29d14451-62ac-40fd-9397-1b799795d56a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:AccumulationRegister>
